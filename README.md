@@ -55,7 +55,7 @@ Widget ID highlighted.
 
 * Improvement: Added 128px icon to assets folder.
 * Improvement: Updated screenshots.
-* Improvement: Added README.md
+* Improvement: Added README.md.
 * Improvement: Minor code improvements.
 
 **0.1.2**
