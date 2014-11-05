@@ -40,10 +40,15 @@ You don't want to put things like tracking code inside your theme because if you
 
 ##Changelog##
 
+**0.1.3**
+
+* Minor code improvements.
+* Added 128px icon to assets folder.
+* Added README.md
+
 **0.1.2**
 
 * Minor code improvements.
-* Added README.md
 
 **0.1.1**
 
