@@ -143,7 +143,7 @@ class JivoSite_Admin {
 		$value = get_option( 'jivosite_code' );
 		$value = esc_textarea( $value[ $name ] );
 
-		echo "<input name='jivosite_code[$name]' type='text' class='regular-text code' value='$value'>";
+		echo "<input name='jivosite_code[$name]' type='text' class='code' size='15' value='$value'>";
 		echo "<p class='description'>$desc</p>";
 	}
 }
