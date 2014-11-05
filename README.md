@@ -43,6 +43,7 @@ You don't want to put things like tracking code inside your theme because if you
 **0.1.2**
 
 * Minor code improvements.
+* Added README.md
 
 **0.1.1**
 

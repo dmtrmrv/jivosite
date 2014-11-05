@@ -14,7 +14,7 @@
  *
  * @wordpress-plugin
  * Plugin Name:       JivoSite
- * Description:       Add JivoSite chat to your site without editing your theme.
+ * Description:       With JivoSite WordPress Plugin you can add JivoSite code to your website without editing your theme.
  * Version:           0.1.2
  * Author:            Dmitry Mayorov
  * Author URI:        http://dmitrymayorov.com/
