@@ -1,4 +1,5 @@
 <?php
+
 /**
  * The plugin bootstrap file
  *
@@ -13,7 +14,6 @@
  *
  * @wordpress-plugin
  * Plugin Name:       JivoSite
- * 
  * Description:       Add JivoSite chat to your site without editing your theme.
  * Version:           0.1.2
  * Author:            Dmitry Mayorov
