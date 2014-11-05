@@ -2,7 +2,7 @@
 
 This plugin provides option to integrate JivoSite code to your website without editing your theme.
 
-This is a good practice to use a plugin instead of adding code manually to your theme files because if you update or change your theme, JivoSite code will still be present on your site.
+This is a good practice to use a plugin instead of adding code manually, because if you update or change your theme, JivoSite code will still be present on your site.
 
 Based on the Plugin API, Coding Standards, and Documentation Standards.
 
@@ -38,21 +38,33 @@ There are three ways you can install this plugin.
 
 You don't want to put things like tracking code inside your theme because if you change it, JivoSite code will be gone. With this plugin code will be present on your site even if you change themes.
 
+**Where do I get my widget id?**
+
+You can get **widget id** in your JivoSite admin panel at [jivosite.ru](http://jivosite.ru/) or [jivochat.com](http://jivochat.com/).
+
+
+![alt text](https://raw.githubusercontent.com/iamdmitrymayorov/jivosite/master/assets/screenshot-1.png "JivoSite admin view. Widget ID highlighted.")
+JivoSite admin view. Widget ID highlighted.
+
+![alt text](https://raw.githubusercontent.com/iamdmitrymayorov/jivosite/master/assets/screenshot-2.png "Widget ID highlighted.")
+Widget ID highlighted.
+
 ##Changelog##
 
 **0.1.3**
 
-* Minor code improvements.
-* Added 128px icon to assets folder.
-* Added README.md
+* Improvement: Added 128px icon to assets folder.
+* Improvement: Updated screenshots.
+* Improvement: Added README.md
+* Improvement: Minor code improvements.
 
 **0.1.2**
 
-* Minor code improvements.
+* Improvement: Minor code improvements.
 
 **0.1.1**
 
-* Minor code improvements.
+* Improvement: Minor code improvements.
 
 **0.1.0**
 
