@@ -1,0 +1,17 @@
+default:
+  - 'makepot'
+
+build:
+  - 'clean:build'
+  - 'copy:build'
+  - 'compress'
+
+svn:
+  - 'clean:svn'
+  - 'copy:svn'
+
+release:
+  - 'makepot'
+  - 'replace:readme'
+  - 'replace:main'
+  - 'build'
