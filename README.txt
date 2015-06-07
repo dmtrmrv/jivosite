@@ -3,11 +3,11 @@ Contributors: iamdmitrymayorov
 Tags: jivo, jivochat, jivosite, code, chat, admin, javascript
 Requires at least: 3.9.2
 Tested up to: 4.2
-Stable tag: 0.1.3
+Stable tag: 0.1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-With JivoSite WordPress Plugin you can add JivoSite code to your website without editing your theme.
+This plugin provides an option to integrate JivoSite code to your website.
 
 == Description ==
 
@@ -40,7 +40,7 @@ Based on the Plugin API, Coding Standards, and Documentation Standards.
 5. Activate the plugin.
 6. Follow steps 5 to 9 from the first installation method.
 
-= Using FTP (Not Recommended) =
+= Using FTP =
 
 1. Download `jivosite.zip`.
 2. Extract the `jivosite` directory to your computer.
@@ -68,18 +68,21 @@ You can get **widget id** in your JivoSite admin panel at [jivosite.ru](http://j
 
 == Changelog ==
 
+= 0.1.4 =
+* Minor code improvements.
+
 = 0.1.3 =
-* Improvement: Added 128px icon to assets folder.
-* Improvement: Updated screenshots.
-* Improvement: Minor code improvements.
+* Added 128px icon to assets folder.
+* Updated screenshots.
+* Minor code improvements.
 
 = 0.1.2 =
-* Improvement: Minor code improvements.
+* Minor code improvements.
 
 = 0.1.1 =
-* Improvement: Better dashbord look.
-* Improvement: New screenshots.
-* Improvement: Better readme.txt.
+* Better dashbord look.
+* New screenshots.
+* Better readme.txt.
 
 = 0.1.0 =
 * Initial Release
