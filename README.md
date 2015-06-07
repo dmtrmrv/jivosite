@@ -1,6 +1,6 @@
 #JivoSite WordPress Plugin#
 
-This plugin provides option to integrate JivoSite code to your website without editing your theme.
+This plugin provides an option to integrate JivoSite code to your website.
 
 This is a good practice to use a plugin instead of adding code manually, because if you update or change your theme, JivoSite code will still be present on your site.
 
@@ -25,7 +25,7 @@ There are three ways you can install this plugin.
 4. Click the **Install Now** button.
 5. Activate the plugin.
 
-####Using FTP (Not Recommended)####
+####Using FTP####
 
 1. Download `jivosite.zip`.
 2. Extract the `jivosite` directory to your computer.
@@ -51,20 +51,24 @@ Widget ID highlighted.
 
 ##Changelog##
 
+**0.1.4**
+
+* Minor code improvements.
+
 **0.1.3**
 
-* Improvement: Added 128px icon to assets folder.
-* Improvement: Updated screenshots.
-* Improvement: Added README.md.
-* Improvement: Minor code improvements.
+* Added 128px icon to assets folder.
+* Updated screenshots.
+* Added README.md.
+* Minor code improvements.
 
 **0.1.2**
 
-* Improvement: Minor code improvements.
+* Minor code improvements.
 
 **0.1.1**
 
-* Improvement: Minor code improvements.
+* Minor code improvements.
 
 **0.1.0**
 
