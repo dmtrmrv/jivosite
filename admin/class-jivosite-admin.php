@@ -1,5 +1,4 @@
 <?php
-
 /**
  * The dashboard-specific functionality of the plugin.
  *
@@ -18,34 +17,33 @@
  *
  * @package    JivoSite
  * @subpackage JivoSite/admin
- * @author     Dmitry Mayorov
  */
 class JivoSite_Admin {
 
 	/**
 	 * The ID of this plugin.
 	 *
-	 * @since    0.1.0
-	 * @access   private
-	 * @var      string    $name    The ID of this plugin.
+	 * @since  0.1.0
+	 * @access private
+	 * @var    string  $name The ID of this plugin.
 	 */
 	private $name;
 
 	/**
 	 * The version of this plugin.
 	 *
-	 * @since    0.1.0
-	 * @access   private
-	 * @var      string    $version    The current version of this plugin.
+	 * @since  0.1.0
+	 * @access private
+	 * @var    string  $version The current version of this plugin.
 	 */
 	private $version;
 
 	/**
 	 * Initialize the class and set its properties.
 	 *
-	 * @since    0.1.0
-	 * @var      string    $name       The name of this plugin.
-	 * @var      string    $version    The version of this plugin.
+	 * @since 0.1.0
+	 * @param string $name    The name of this plugin.
+	 * @param string $version The version of this plugin.
 	 */
 	public function __construct( $name, $version ) {
 
@@ -57,7 +55,7 @@ class JivoSite_Admin {
 	/**
 	 * Create menu item.
 	 *
-	 * @since    0.1.0
+	 * @since 0.1.0
 	 */
 	public function add_menu_page() {
 		add_submenu_page(
@@ -69,11 +67,11 @@ class JivoSite_Admin {
 			array( $this, 'render_plugin_admin_page' )
 		);
 	}
-	
+
 	/**
 	 * Render admin page.
-	 * 
-	 * @since    0.1.0
+	 *
+	 * @since 0.1.0
 	 */
 	public function render_plugin_admin_page() {
 		require_once plugin_dir_path( __FILE__ ) . 'partials/jivosite-admin-display.php';
@@ -81,8 +79,8 @@ class JivoSite_Admin {
 
 	/**
 	 * Initialize admin page.
-	 * 
-	 * @since    0.1.0
+	 *
+	 * @since 0.1.0
 	 */
 	public function admin_init() {
 		register_setting(
@@ -90,7 +88,7 @@ class JivoSite_Admin {
 			'jivosite_code',
 			array( $this, 'sanitize' )
 		);
-		
+
 		add_settings_section(
 			'jivosite_code',
 			'',
@@ -101,29 +99,30 @@ class JivoSite_Admin {
 		add_settings_field(
 			'widget_id',
 			__( 'Widget ID', 'jivosite' ),
-			array( $this, 'display_field' ), 
-			'jivosite_code', 
+			array( $this, 'display_field' ),
+			'jivosite_code',
 			'jivosite_code',
 			array(
 				'name' => 'widget_id',
-				'desc' => __( 'See screenshots in plugin details if you don\'t know how to get widget id.' , 'jivosite' )
+				'desc' => __( 'See plugin description for details.' , 'jivosite' ),
 			)
 		);
 	}
 
 	/**
 	 * Sanitize option value.
-	 * 
-	 * @since    0.1.0
+	 *
+	 * @since 0.1.0
+	 * @param array $input Potentially harmful data.
 	 */
 	public function sanitize( $input ) {
 		$output = array(
-			'widget_id' => ''
+			'widget_id' => '',
 		);
 
 		if ( isset( $input ) && is_array( $input ) ) {
 			foreach ( $input as $k => $v ) {
-				if ( $k == 'widget_id' ) {
+				if ( 'widget_id' == $v ) {
 					$output[ $k ] = sanitize_text_field( $v );
 				}
 			}
@@ -134,8 +133,9 @@ class JivoSite_Admin {
 
 	/**
 	 * Display field with description.
-	 * 
-	 * @since    0.1.0
+	 *
+	 * @since 0.1.0
+	 * @param array $args Data for field output.
 	 */
 	public function display_field( $args = array() ) {
 		$name  = $args['name'];
@@ -143,7 +143,14 @@ class JivoSite_Admin {
 		$value = get_option( 'jivosite_code' );
 		$value = esc_textarea( $value[ $name ] );
 
-		echo "<input name='jivosite_code[$name]' type='text' class='code' size='15' value='$value'>";
-		echo "<p class='description'>$desc</p>";
+		// Print the input field.
+		printf(
+			'<input name="%1$s" type="text" class="code" value="%2$s">',
+			esc_attr( "jivosite_code[$name]" ),
+			esc_html( $value )
+		);
+
+		// Print the description.
+		echo '<p class="description">' . esc_html( $desc ) . '</p>';
 	}
 }

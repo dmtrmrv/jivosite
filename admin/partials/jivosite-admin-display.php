@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Provide a dashboard view for the plugin
  *
@@ -11,11 +10,12 @@
  * @package    JivoSite
  * @subpackage JivoSite/admin/partials
  */
+
 ?>
 
 <div class="wrap">
 	<?php screen_icon(); ?>
-	<h2><?php _e( 'JivoSite', 'jivosite' ); ?></h2>
+	<h2><?php esc_html_e( 'JivoSite', 'jivosite' ); ?></h2>
 	<form method="post" action="options.php">
 		<?php
 			settings_fields( 'jivosite_code' );
