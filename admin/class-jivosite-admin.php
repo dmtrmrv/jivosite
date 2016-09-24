@@ -122,7 +122,7 @@ class JivoSite_Admin {
 
 		if ( isset( $input ) && is_array( $input ) ) {
 			foreach ( $input as $k => $v ) {
-				if ( 'widget_id' == $v ) {
+				if ( 'widget_id' == $k ) {
 					$output[ $k ] = sanitize_text_field( $v );
 				}
 			}
