@@ -13,10 +13,10 @@ module.exports = {
 			'!.gitignore',
 			'!Gruntfile.js',
 			'!package.json',
-			'!README.txt',
+			'!codesniffer.ruleset.xml',
 			'!*.sublime-project',
 			'!*.sublime-workspace',
-
+			'!README.md',
 		],
 		dest: '../build/<%= package.name %>/'
 	},
@@ -34,10 +34,10 @@ module.exports = {
 			'!.gitignore',
 			'!Gruntfile.js',
 			'!package.json',
-			'!README.md',
+			'!codesniffer.ruleset.xml',
 			'!*.sublime-project',
 			'!*.sublime-workspace',
-
+			'!README.md'
 		],
 		dest: '../svn/trunk/'
 	},
