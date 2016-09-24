@@ -141,13 +141,13 @@ class JivoSite_Admin {
 		$name  = $args['name'];
 		$desc  = $args['desc'];
 		$value = get_option( 'jivosite_code' );
-		$value = esc_textarea( $value[ $name ] );
+		$value = $value[ $name ];
 
 		// Print the input field.
 		printf(
 			'<input name="%1$s" type="text" class="code" value="%2$s">',
 			esc_attr( "jivosite_code[$name]" ),
-			esc_html( $value )
+			esc_attr( $value )
 		);
 
 		// Print the description.
