@@ -1,21 +1,19 @@
 === JivoSite ===
 Contributors: iamdmitrymayorov
 Tags: jivo, jivochat, jivosite, code, chat, admin, javascript
-Requires at least: 3.9.2
-Tested up to: 4.2
+Requires at least: 4.3
+Tested up to: 4.6
 Stable tag: 0.1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This plugin provides an option to integrate JivoSite code to your website.
+An easy way of adding JivoSite code to your website.
 
 == Description ==
 
-This plugin provides option to integrate JivoSite code to your website without editing your theme.
+An easy way of adding JivoSite code to your website.
 
-This is a good practice to use a plugin instead of adding code manually, because if you update or change your theme, JivoSite code will still be present on your site.
-
-Based on the Plugin API, Coding Standards, and Documentation Standards.
+A better approach of adding JivoSite code to your website than editing theme files directly. Based on WordPress Plugin Boilerplate. Follows WordPress Coding Standards.
 
 == Installation ==
 
@@ -50,9 +48,9 @@ Based on the Plugin API, Coding Standards, and Documentation Standards.
 
 == Frequently Asked Questions ==
 
-= Why not include JivoSite code directly to my theme? =
+= Why not include JivoSite code in a theme directly? =
 
-You don't want to put JivoSite code inside your theme because next time you update or change it, JivoSite code will be gone. You should *never* edit theme files.
+Because if you change the theme JivoSite code will be gone as well. With this plugin, code will stay on your website regardless of the theme.
 
 = Where do I get my widget id? =
 
@@ -68,21 +66,23 @@ You can get **widget id** in your JivoSite admin panel at [jivosite.ru](http://j
 
 == Changelog ==
 
-= 0.1.4 =
-* Minor code improvements.
+== 0.1.5 ==
+* Fixed: Minor Codesniffer issues
 
-= 0.1.3 =
-* Added 128px icon to assets folder.
-* Updated screenshots.
-* Minor code improvements.
+== 0.1.4 ==
+* Fixed: Minor code improvements
 
-= 0.1.2 =
-* Minor code improvements.
+== 0.1.3 ==
+* Added: 128px icon to assets folder
+* Added: Updated screenshots
+* Added: README.md
+* Fixed: Minor code improvements
 
-= 0.1.1 =
-* Better dashbord look.
-* New screenshots.
-* Better readme.txt.
+== 0.1.2 ==
+* Fixed: Minor code improvements
 
-= 0.1.0 =
-* Initial Release
+== 0.1.1 ==
+* Fixed: code improvements.
+
+== 0.1.0 ==
+* Initial Release.

@@ -26,7 +26,7 @@ msgid "See plugin description for details."
 msgstr ""
 
 #. Description of the plugin/theme
-msgid "Add JivoSite code to your website without editing your theme."
+msgid "An easy way of adding JivoSite code to your website."
 msgstr ""
 
 #. Author of the plugin/theme

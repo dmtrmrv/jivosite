@@ -1,10 +1,8 @@
 #JivoSite WordPress Plugin#
 
-This plugin provides an option to integrate JivoSite code to your website.
+An easy way of adding JivoSite code to your website.
 
-This is a good practice to use a plugin instead of adding code manually, because if you update or change your theme, JivoSite code will still be present on your site.
-
-Based on the Plugin API, Coding Standards, and Documentation Standards.
+A better approach of adding JivoSite code to your website than editing theme files directly. Based on WordPress Plugin Boilerplate. Follows WordPress Coding Standards.
 
 ##Installation##
 
@@ -13,7 +11,7 @@ There are three ways you can install this plugin.
 ####Using The WordPress Dashboard (Recommended)####
 
 1. Navigate to *Plugins → Add New* from within the WordPress Dashboard.
-1. Search for `jivosie`.
+1. Search for `jivosite`.
 1. Click **Install Now** on *JivoSite* by Dmitry Mayorov.
 1. Activate the plugin.
 
@@ -34,14 +32,13 @@ There are three ways you can install this plugin.
 
 ##Frequently Asked Questions##
 
-**Why not include JivoSite code in a theme?**
+**Why not include JivoSite code in a theme directly?**
 
-You don't want to put things like tracking code inside your theme because if you change it, JivoSite code will be gone. With this plugin code will be present on your site even if you change themes.
+Because if you change the theme JivoSite code will be gone as well. With this plugin, code will stay on your website regardless of the theme.
 
 **Where do I get my widget id?**
 
 You can get **widget id** in your JivoSite admin panel at [jivosite.ru](http://jivosite.ru/) or [jivochat.com](http://jivochat.com/).
-
 
 ![alt text](https://raw.githubusercontent.com/iamdmitrymayorov/jivosite/master/assets/screenshot-1.png "JivoSite admin view. Widget ID highlighted.")
 JivoSite admin view. Widget ID highlighted.
@@ -51,24 +48,28 @@ Widget ID highlighted.
 
 ##Changelog##
 
+**0.1.5**
+
+* Fixed: Minor Codesniffer issues
+
 **0.1.4**
 
-* Minor code improvements.
+* Fixed: Minor code improvements
 
 **0.1.3**
 
-* Added 128px icon to assets folder.
-* Updated screenshots.
-* Added README.md.
-* Minor code improvements.
+* Added: 128px icon to assets folder
+* Added: Updated screenshots
+* Added: README.md
+* Fixed: Minor code improvements
 
 **0.1.2**
 
-* Minor code improvements.
+* Fixed: Minor code improvements
 
 **0.1.1**
 
-* Minor code improvements.
+* Fixed: code improvements.
 
 **0.1.0**
 

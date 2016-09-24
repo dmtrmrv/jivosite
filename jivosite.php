@@ -1,25 +1,20 @@
 <?php
 /**
- * The plugin bootstrap file
+ * JivoSite Plugin
  *
- * This file is read by WordPress to generate the plugin information in the plugin
- * Dashboard. This file also includes all of the dependencies used by the plugin,
- * registers the activation and deactivation functions, and defines a function
- * that starts the plugin.
+ * @link        http://dmitrymayorov.com
+ * @since       0.1.0
+ * @package     JivoSite
  *
- * @link              http://dmitrymayorov.com
- * @since             0.1.0
- * @package           JivoSite
- *
- * Plugin Name:       JivoSite
- * Description:       Add JivoSite code to your website without editing your theme.
- * Version:           0.1.4
- * Author:            Dmitry Mayorov
- * Author URI:        http://themepatio.com/
- * License:           GPL-2.0+
- * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
- * Text Domain:       jivosite
- * Domain Path:       /languages
+ * Plugin Name: JivoSite
+ * Description: An easy way of adding JivoSite code to your website.
+ * Version:     0.1.4
+ * Author:      Dmitry Mayorov
+ * Author URI:  http://themepatio.com/
+ * License:     GPL-2.0+
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
+ * Text Domain: jivosite
+ * Domain Path: /languages
  */
 
 // If this file is called directly, abort.
@@ -36,11 +31,7 @@ require_once plugin_dir_path( __FILE__ ) . 'includes/class-jivosite.php';
 /**
  * Begins execution of the plugin.
  *
- * Since everything within the plugin is registered via hooks,
- * then kicking off the plugin from this point in the file does
- * not affect the page life cycle.
- *
- * @since    0.1.0
+ * @since 0.1.0
  */
 function run_jivosite() {
 	$plugin = new JivoSite();
