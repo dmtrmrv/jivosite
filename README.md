@@ -48,6 +48,10 @@ Widget ID highlighted.
 
 ##Changelog##
 
+**0.1.6**
+
+* Fixed: Minor Codesniffer issues
+
 **0.1.5**
 
 * Fixed: Minor Codesniffer issues

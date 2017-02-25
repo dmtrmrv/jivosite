@@ -2,7 +2,7 @@
 /**
  * Register all actions and filters for the plugin
  *
- * @link       http://dmitrymayorov.com
+ * @link       https://dmtrmrv.com
  * @since      0.1.0
  *
  * @package    JivoSite
@@ -24,31 +24,29 @@ class JivoSite_Loader {
 	/**
 	 * The array of actions registered with WordPress.
 	 *
-	 * @since    0.1.0
-	 * @access   protected
-	 * @var      array    $actions    The actions registered with WordPress to fire when the plugin loads.
+	 * @since  0.1.0
+	 * @access protected
+	 * @var    array     $actions The actions registered with WordPress to fire when the plugin loads.
 	 */
 	protected $actions;
 
 	/**
 	 * The array of filters registered with WordPress.
 	 *
-	 * @since    0.1.0
-	 * @access   protected
-	 * @var      array    $filters    The filters registered with WordPress to fire when the plugin loads.
+	 * @since  0.1.0
+	 * @access protected
+	 * @var    array     $filters The filters registered with WordPress to fire when the plugin loads.
 	 */
 	protected $filters;
 
 	/**
 	 * Initialize the collections used to maintain the actions and filters.
 	 *
-	 * @since    0.1.0
+	 * @since 0.1.0
 	 */
 	public function __construct() {
-
 		$this->actions = array();
 		$this->filters = array();
-
 	}
 
 	/**
@@ -68,7 +66,7 @@ class JivoSite_Loader {
 	/**
 	 * Add a new filter to the collection to be registered with WordPress.
 	 *
-	 * @since    0.1.0
+	 * @since 0.1.0
 	 * @param string          $hook          The name of the WordPress filter that is being registered.
 	 * @param object          $component     A reference to the instance of the object on which the filter is defined.
 	 * @param string          $callback      The name of the function definition on the $component.
@@ -94,7 +92,6 @@ class JivoSite_Loader {
 	 * @return type                            The collection of actions and filters registered with WordPress.
 	 */
 	private function add( $hooks, $hook, $component, $callback, $priority, $accepted_args ) {
-
 		$hooks[] = array(
 			'hook'          => $hook,
 			'component'     => $component,

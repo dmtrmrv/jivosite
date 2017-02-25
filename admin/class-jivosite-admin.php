@@ -2,7 +2,7 @@
 /**
  * The dashboard-specific functionality of the plugin.
  *
- * @link       http://dmitrymayorov.com
+ * @link       https://dmtrmrv.com
  * @since      0.1.0
  *
  * @package    JivoSite

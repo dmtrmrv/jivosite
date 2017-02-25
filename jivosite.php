@@ -2,7 +2,7 @@
 /**
  * JivoSite Plugin
  *
- * @link        http://dmitrymayorov.com
+ * @link        https://dmtrmrv.com
  * @since       0.1.0
  * @package     JivoSite
  *
@@ -10,7 +10,7 @@
  * Description: An easy way of adding JivoSite code to your website.
  * Version:     0.1.5
  * Author:      Dmitry Mayorov
- * Author URI:  http://dmitrymayorov.com/
+ * Author URI:  https://dmtrmrv.com/
  * License:     GPL-2.0+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain: jivosite

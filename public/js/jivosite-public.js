@@ -1,3 +1,9 @@
+/**
+ * JivoSite Snippet
+ *
+ * @package JivoSite
+ */
+
 ( function() {
 	var widget_id = jivosite.widget_id;
 	var s = document.createElement( 'script' );

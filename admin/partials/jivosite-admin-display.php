@@ -4,7 +4,7 @@
  *
  * This file is used to markup the public-facing aspects of the plugin.
  *
- * @link       http://dmitrymayorov.com
+ * @link       https://dmtrmrv.com
  * @since      0.1.0
  *
  * @package    JivoSite

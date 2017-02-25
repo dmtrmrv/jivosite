@@ -66,6 +66,9 @@ You can get **widget id** in your JivoSite admin panel at [jivosite.ru](http://j
 
 == Changelog ==
 
+== 0.1.6 ==
+* Fixed: Minor Codesniffer issues
+
 == 0.1.5 ==
 * Fixed: Minor Codesniffer issues
 

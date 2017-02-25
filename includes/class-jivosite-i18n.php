@@ -5,7 +5,7 @@
  * Loads and defines the internationalization files for this plugin
  * so that its ready for translation.
  *
- * @link       http://dmitrymayorov.com
+ * @link       https://dmtrmrv.com
  * @since      0.1.0
  *
  * @package    JivoSite
@@ -22,7 +22,7 @@
  * @package    JivoSite
  * @subpackage JivoSite/includes
  */
-class JivoSite_i18n {
+class JivoSite_I18n {
 
 	/**
 	 * Load the plugin text domain for translation.
