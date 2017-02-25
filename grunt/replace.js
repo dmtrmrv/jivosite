@@ -21,5 +21,17 @@ module.exports = {
 				return matchedWord.replace( /\d+\.\d+\.\d+/g, '<%= package.version %>' );
 			}
 		} ]
+	},
+	class: {
+		src: [
+			'includes/class-<%= package.name %>.php',
+		],
+		overwrite: true,
+		replacements: [ {
+			from: /\$this(\s?)*->version.*/g,
+			to: function( matchedWord ) {
+				return matchedWord.replace( /\d+\.\d+\.\d+/g, '<%= package.version %>' );
+			}
+		} ]
 	}
 };
