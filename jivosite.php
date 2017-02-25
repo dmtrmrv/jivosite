@@ -8,7 +8,7 @@
  *
  * Plugin Name: JivoSite
  * Description: An easy way of adding JivoSite code to your website.
- * Version:     0.1.5
+ * Version:     0.1.6
  * Author:      Dmitry Mayorov
  * Author URI:  https://dmtrmrv.com/
  * License:     GPL-2.0+
